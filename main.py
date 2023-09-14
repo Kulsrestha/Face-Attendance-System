@@ -11,11 +11,11 @@ from firebase_admin import storage
 import numpy as np
 from datetime import datetime
 
-cred = credentials.Certificate("serviceAccountKey.json")
-firebase_admin.initialize_app(cred, {
-    'databaseURL': "",
-    'storageBucket': ""
-})
+# cred = credentials.Certificate("serviceAccountKey.json")
+# firebase_admin.initialize_app(cred, {
+#     'databaseURL': "",
+#     'storageBucket': ""
+# })
 
 bucket = storage.bucket()
 
